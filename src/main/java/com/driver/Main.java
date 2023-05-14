@@ -1,6 +1,6 @@
 public class Main
 {
-	class RWOnly
+	static class RWOnly
 	{
 	    private String name;
 	    // getter...
