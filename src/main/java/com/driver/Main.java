@@ -1,5 +1,17 @@
 public class Main
 {
+	public static class RWOnly
+	{
+	    private String name;
+	    // getter...
+	    public String getName() {
+		return name;
+	    }
+	    // setter
+	    public void setName(String name){
+		this.name = name;
+	    }
+	}	
 	public static void main(String[] args) {
 	    RWOnly r = new RWOnly();
 	   // r.name = "Accio";
